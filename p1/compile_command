@@ -1,0 +1,5 @@
+Ya les preparé un makefile funcional (revisen en internet qué es). Para compilar el código nada más
+deben en la carpeta principal de p1 ejecutar el comando make y les debería generar el ejecutable.
+
+El comando de compilación manual es
+gcc source/dedemo `sdl2-config --cflags --libs`mo.c -o 
